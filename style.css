@@ -191,19 +191,33 @@ footer {
     .container-landing .container {
         flex-direction: column-reverse;
     }
+    .buttons {
+        padding: 1rem;
+    }
+    .btn {
+        background: var(--blue);
+        color: var(--gray);
+        font-size: 10px;
+        padding: 5px 10px;
+    }
 
     .office {
         display: none;
     }
     
     .trabajos .container-trabajos {
-        flex-direction: column;
+        /* flex-direction: column; */
         align-items: center;
         gap: 2rem;
     }
     .trabajos .container-trabajos .trabajo {
-        width: 70%;
+        width: 40%;
+        flex-wrap: nowrap;
     }
+    .trabajos .container-trabajos .trabajo:nth-child(5) {
+        margin: 0 auto;
+    }
+
     .contact .contact-container .contact-data .title {
         padding-top: 1rem;
     }

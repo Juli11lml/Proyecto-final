@@ -234,7 +234,7 @@ footer {
 }
 
 /* --- Media Queris --- */
-@media (max-width: 400px) {
+@media (max-width: 600px) {
     /* Header */
     .menu {
         flex-direction: column-reverse;

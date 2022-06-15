@@ -281,6 +281,10 @@ h1, h2, h3 {
 .office {
     width: 48%;
 }
+.office img {
+    margin-bottom: -5px;
+    border-left: 3px solid var(--orange);
+}
 .redes {
     display: flex;
     gap: 2rem;
